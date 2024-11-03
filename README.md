@@ -5,4 +5,4 @@ Run the following command:
 `node install-dependencies.js`
 
 Build the project when finished:
-`npm run build`
+`npm run deploy`

@@ -2,9 +2,7 @@
 node_modules/
 
 # Build output directories (Webpack or other bundlers)
-dist/
-build/
-docs/
+public/
 
 # TypeScript output
 *.tsbuildinfo
