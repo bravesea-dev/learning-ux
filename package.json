@@ -1,4 +1,13 @@
 {
+  "repository": {},
+  "description": " ",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "webpack",
+    "watch": "webpack serve --mode development",
+    "lint": "eslint ./",
+    "test": "cross-env FORCE_COLOR=true jest"
+  },
   "dependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
