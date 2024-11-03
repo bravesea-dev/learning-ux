@@ -11,7 +11,7 @@ const commands = [
   { cmd: 'npm install babel-loader @babel/core @babel/preset-env @babel/preset-react', message: 'Installing Babel and related packages...' },
   { cmd: 'npm install style-loader css-loader sass-loader', message: 'Installing style loaders...' },
   { cmd: 'npm install redux react-redux @types/react-redux', message: 'Installing Redux and related types...' },
-  { cmd: 'npm install --save-dev eslint', message: 'Installing ESLint...' },
+  { cmd: 'npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin', message: 'Installing ESLint and related packages...' },
 ];
 
 async function runCommands() {
