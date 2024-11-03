@@ -9,7 +9,7 @@ const commands = [
   { cmd: 'npm install webpack webpack-cli html-webpack-plugin', message: 'Installing Webpack and Webpack CLI...' },
   { cmd: 'npm install typescript @types/node @types/react @types/react-dom', message: 'Installing TypeScript and types...' },
   { cmd: 'npm install babel-loader @babel/core @babel/preset-env @babel/preset-react', message: 'Installing Babel and related packages...' },
-  { cmd: 'npm install style-loader css-loader sass-loader', message: 'Installing style loaders...' },
+  { cmd: 'npm install style-loader css-loader sass-loader ts-loader', message: 'Installing Webpack loaders...' },
   { cmd: 'npm install redux react-redux @types/react-redux', message: 'Installing Redux and related types...' },
   { cmd: 'npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin', message: 'Installing ESLint and related packages...' }
 ];
