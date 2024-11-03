@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        hello: './src/components/Hello.tsx',
+        hello: './private/index.tsx',
     },
     output: {
         filename: 'main.js',
@@ -31,5 +31,8 @@ module.exports = {
                 ]
             },
         ],
+    },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
 };
