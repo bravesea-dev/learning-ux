@@ -23,12 +23,11 @@
     },
     "include": [
         "src",
-        "images.d.ts", "components",
+        "components",
     ],
     "exclude": [
         "node_modules",
         "build",
-        "webpack",
     ]
 }
   

@@ -10,7 +10,8 @@ const commands = [
   { cmd: 'npm i babel-loader @babel/core @babel/preset-env @babel/preset-react', message: 'Installing Babel and related packages...' },
   { cmd: 'npm i react-scripts', message: 'Installing React Scripts' },
   { cmd: 'npm i redux react-redux @types/react-redux', message: 'Installing Redux and related types...' },
-  { cmd: 'npm i --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin', message: 'Installing ESLint and related packages...' }
+  { cmd: 'npm i --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin', message: 'Installing ESLint and related packages...' },
+  { cmd: 'pnpm install', message: 'Populating node_modules using pnpm...'}
 ];
 
 async function runCommands() {
