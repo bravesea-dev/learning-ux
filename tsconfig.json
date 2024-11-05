@@ -23,7 +23,7 @@
     },
     "include": [
         "src",
-        "images.d.ts",
+        "images.d.ts", "components",
     ],
     "exclude": [
         "node_modules",
