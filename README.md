@@ -2,7 +2,7 @@
 
 ## To setup node_modules for development
 Run the following command:
-`node install-dependencies.js`
+`pnpm install`
 
 Build the project when finished:
 `npm run start`
