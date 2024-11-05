@@ -1,10 +1,18 @@
+import { lazy } from 'react';
 import { ThemeProvider } from '@emotion/react';
 import { createRoot } from 'react-dom/client';
-import lazy from '../LazyComponent';
+import { Box } from '@mui/material';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(<Root />);
+
+const theme = {
+    colors: {
+      primary: 'hotpink',
+    },
+  };
 
 const CompRoutes = lazy(() => import("../components/CompRoutes"));
 
@@ -13,10 +21,10 @@ function Root() {
         <Box sx={{
             padding: '8px 0px',
         }}>
-            <ThemeProvider theme={lightTheme}>
+            <ThemeProvider theme={theme}>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/components/*" element={<CompRoutes />} />} />
+                        <Route path="/components/*" element={<CompRoutes />} />
                     </Routes>
                 </BrowserRouter>
             </ThemeProvider>
